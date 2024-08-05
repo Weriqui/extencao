@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <script src="main.js" defer></script>   
+  <title>Document</title>
+</head>
+<body>
+    <div id="prospect" class="etapa">
+        <div id="etapas">
+            <select name="etapa" id="etapa">
+                <option value="PROSPECÇÃO">PROSPECÇÃO</option>
+                <option value="NEGOCIAÇÃO">NEGOCIAÇÃO</option>
+                <option value="EXECUÇÃO">EXECUÇÃO</option>
+            </select>
+            <select name="produto" id="produto">
+                <option value="604">REDUÇÃO PARCELAMENTOS PJ RS</option>
+                <option value="603">ALIQUOTA ZERO</option>
+                <option value="602">Reducao Transacao INAPTA/BAIXADA</option>
+                <option value="601">Reducao Parcelamento INAPTA/BAIXADA</option>
+                <option value="600">TAX LR - DIVIDA</option>
+                <option value="599">PF CORRESPONSAVEL - DIVIDA ATIVA</option>
+                <option value="17">GESTÃO DE PASSIVO</option>
+                <option value="24">GESTÃO DE PASSIVO (PRESENCIAL)</option>
+                <option value="21">EXCLUSAO TRANSACAO p/TAX</option>
+                <option value="20">COMPRA DE DÍVIDA</option>
+                <option value="15">REDUCAO TRANSACAO PJ</option>
+                <option value="18">REDUCAO PARCELAMENTO PJ</option>
+                <option value="14">PEQUENO VALOR PJ</option>
+                <option value="12">PEQUENO VALOR PF</option>
+                <option value="16">REDUCAO PERT PJ</option>
+            </select>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li id="step10">
+                    <div class="step-label">SCRIPT LIGAÇÃO</div>
+                </li>
+                <li id="step30">
+                    <div class="step-label">OPORTUNIDADE</div>
+                </li>
+                <li id="step1">
+                    <div class="step-label">PRIMEIRO CONTATO</div>
+                </li>
+                <li id="step2">
+                    <div class="step-label">CONTATO EFETIVO</div>
+                </li>
+                <li id="step3">
+                    <div class="step-label">AGENDANDO</div>
+                </li>
+                <li id="step3">
+                    <div class="step-label">PROPOSTA</div>
+                </li>
+                <li id="step3">
+                    <div class="step-label">NEGOCIANDO</div>
+                </li>
+                <li id="step3">
+                    <div class="step-label">ASSINATURA</div>
+                </li>
+                </li>
+                <li id="step14">
+                    <div class="step-label">OBJEÇÕES</div>
+                </li>
+                <li id="step12">
+                    <div class="step-label">PARCELAMENTOS</div>
+                </li>
+                <li id="step13">
+                    <div class="step-label">CRIAR NEGÓCIO <br>CALLIX</div>
+                </li>
+            </ul>
+        </div>
+        <div class="conteudo">
+            <section id="etapa-30" class="step-content hidden">
+                <h1>OPORTUNIDADE</h1>
+                <ul>
+                    <li><p class="topico">LIGAR E ABORDAR PELO SCRIPT DDE LIGAÇÃO</p></li>
+                    <li><p class="topico">PRAZO: MESMO DIA EM QUE RECEBER O NEGÓCIO</p></li>
+                </ul>
+                <h2>NÃO ATENDEU</h2>
+                <ul>
+                    <li><p class="topico">ENVIAR MENSAGEM PELO WHATS E MOVER PARA TENTATIVA</p></li>
+                </ul>
+                <h2>ATENDEU</h2>
+                <ul>
+                    <li><p class="topico"><strong>EFETIVO</strong>: MOVER PARA <strong>CONTATO EFETIVO</strong></p></li>
+                </ul>
+            </section>
+            <section id="etapa-1" class="step-content hidden">
+                <h1>PRIMEIRO CONTATO</h1>
+                <p>T1</p>
+                <ul>
+                    <li><h4>ENVIAR MENSAGEM WHATSAPP</h4></li>
+                    <li><h4><strong>PRAZO</strong>: MESMO DIA EM QUE RECEBER O NEGÓCIO</h4></li>
+                    <li><h4>AGENDAR T2 PARA O DIA SEGUINTE</h4></li>
+                </ul>
+                <p id="T1" class="red" title="Clique para copiar">
+                </p>
+                <p>T2</p>
+                <ul>
+                    <li><h4>LIGAR CALLIX, SE NÃO ATENDER, ENVIAR MENSAGEM WHATSAPP</h4></li>
+                    <li><h4>AGENDAR T3 PARA O DIA SEGUINTE, TURNO TROCADO</h4></li>
+                </ul>
+                <p id="T2" class="red" title="Clique para copiar">
+                </p>
+                <p>T3</p>
+                <ul>
+                    <li><h4>LIGAR CALLIX, SE NÃO ATENDER, ENVIAR MENSAGEM WHATSAPP</h4></li>
+                    <li><h4>AGENDAR T4 PARA 2 DIAS DEPOIS</h4></li>
+                </ul>
+                <p id="T3" class="red" title="Clique para copiar">
+                </p>
+                <p>T4</p>
+                <ul>
+                    <li><h4>LIGAR NA EMPRESA PARA FALAR COM O SÓCIO OU RESPONSAVEL FINANCEIRO</h4></li>
+                    <li><h4>PEGAR EMAIL E INSERIR NO NEGÓCIO</h4></li>
+                    <li><h4>AGENDAR T5 PARA O DIA SEGUINTE</h4></li>
+                </ul>
+                <p id="T4" class="red" title="Clique para copiar">
+                </p>
+                <p>T5</p>
+                <ul>
+                    <li><h4>ENVIAR EMAIL EMPRESA</h4></li>
+                    <li><h4>AGENDAR T6 PARA 3 DIAS DEPOIS</h4></li>
+                </ul>
+                <p id="T5" class="red" title="Clique para copiar"></p>
+                <p>T6</p>
+                <ul>
+                    <li><h4>LIGAR NA EMPRESA PARA AGENDAR COM </h4></li>
+                    <li><h4><strong>PRAZO</strong>: MESMO DIA EM QUE RECEBER O NEGÓCIO</h4></li>
+                    <li><h4>AGENDAR T2 PARA O DIA SEGUINTE</h4></li>
+                </ul>
+                <p id="T4" class="red" title="Clique para copiar"></p>
+                <p>T1</p>
+                <ul>
+                    <li><h4>ENVIAR MENSAGEM WHATSAPP</h4></li>
+                    <li><h4><strong>PRAZO</strong>: MESMO DIA EM QUE RECEBER O NEGÓCIO</h4></li>
+                    <li><h4>AGENDAR T2 PARA O DIA SEGUINTE</h4></li>
+                </ul>
+                <p id="T4" class="red" title="Clique para copiar"></p>
+            </section>
+        
+            <section id="etapa-2" class="step-content hidden">
+                <h1>CONTATO EFETIVO</h1>
+                <div class="contorno"><h2>PASSO 4</h2></div>
+                <h2>QUALIFICAR CONTATO E ADICONAR PESSOA SE NECESSARIO</h2>
+                <br>
+                <h2>AGENDADO?</h2>
+                <ul>
+                    <li><p class="topico">MOVER O NEGÓCIO PARA PROXIMA ETAPA</p></li>
+                </ul>
+                <br>
+                <h2>NÃO AGENDADO</h2>
+                <h3>ATIVIDADE F1</h3>
+                <ul>
+                    <li><p class="topico">DATA MARCADA OU 1 DIA APÓS CONTATO EFETIVO</p></li>
+                    <li><p class="topico">AGENDAR F2 PARA O DIA SEGUINTE</p></li>
+                    <li><p class="topico">LIGAR CALLIX/WHATS E MENSAGEM WHATS</p></li>
+                </ul>
+                <p id="F1" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F2</h3>
+                <ul>
+                    <li><p class="topico">MENSAGEM WHATS DEPOIMENTO CLIENTE</p></li>
+                    <li><p class="topico">AGENDAR F3 PARA 2 DIAS DEPOIS</p></li>
+                </ul>
+                <p id="F2" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F3</h3>
+                <ul>
+                    <li><p class="topico">LIGAR CALLIX/WHATS E MENSAGEM WHATS</p></li>
+                    <li><p class="topico">AGENDAR F4 PARA 1 DIA DEPOIS</p></li>
+                </ul>
+                <p id="F3" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F4</h3>
+                <ul>
+                    <li><p class="topico">EMAIL PROSPECÇÃO</p></li>
+                    <li><p class="topico">AGENDAR F5 PARA 3 DIAS DEPOIS</p></li>
+                </ul>
+                <p id="F4" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F5</h3>
+                <ul>
+                    <li><p class="topico">LIGAR EMPRESA</p></li>
+                    <li><p class="topico">AGENDAR F6 PARA 4 DIAS DEPOIS</p></li>
+                </ul>
+                <p id="F5" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F6</h3>
+                <ul>
+                    <li><p class="topico">MENSAGEM WHATS - CASE DE SUCESSO 1</p></li>
+                    <li><p class="topico">AGENDAR F7 PARA 4 DIAS DEPOIS</p></li>
+                </ul>
+                <p id="F1" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F7</h3>
+                <ul>
+                    <li><p class="topico">EMAIL - CONTEUDO INFORMATIVO</p></li>
+                    <li><p class="topico">AGENDAR F8 PARA 3 DIAS DEPOIS</p></li>
+                </ul>
+                <p id="F7" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F8</h3>
+                <ul>
+                    <li><p class="topico">MENSAGEM WHATS - NOTICIA RELEVANTE</p></li>
+                    <li><p class="topico">AGENDAR F9 PARA DOIS DIAS</p></li>
+                </ul>
+                <p id="F8" class="red" title="Clique para copiar">
+                </p>
+                </ul>
+                <h3>ATIVIDADE F9</h3>
+                <ul>
+                    <li><p class="topico">LIGAR CALLIX/WHATS E MENSAGEM WHATS</p></li>
+                    <li><p class="topico">AGENDAR F10 PARA 3 DIAS DEPOIS</p></li>
+                </ul>
+                <p id="F9" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F10</h3>
+                <ul>
+                    <li><p class="topico">MENSAGEM WHATS - CASE DE SUCESSO 2</p></li>
+                    <li><p class="topico">AGENDAR F11 PARA 4 DIAS</p></li>
+                </ul>
+                <p id="F10" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE F11</h3>
+                <ul>
+                    <li><p class="topico">LIGAR CALLIX/WHATS E MENSAGEM WHATS</p></li>
+                    <li><p class="topico">DAR PERDIDO E QUALIFICAR CONTATO</p></li>
+                </ul>
+                <p id="F11" class="red" title="Clique para copiar">
+                </p>
+            </section>
+        
+            <section id="etapa-3" class="step-content hidden">
+                <h1>AGENDADO</h1>
+                <div class="contorno"><h2>PASSO 5</h2></div>
+                <ul>
+                    <li><p class="topico">AGENDAR PARA NO MAXIMO 48H</p></li>
+                    <li><p class="topico">GATILHO DE COMPROMISSO</p></li>
+                    <li><p class="topico">QUALIFICAR AGENDA</p></li>
+                </ul>
+                <h2>CONFIRMAR AGENDA</h2>
+                <h3>ATIVIDADE C1</h3>
+                <ul>
+                    <li><h4>LOGO APÓS A REUNIÃO:</h4></li>
+                    <li><h4>PEGAR EMAIL, ENVIAR INVITE</h4></li>
+                    <li><h4>ENVIAR MENSAGEM WHATS COM DATA E HORARIO, MATERIAL INSTITUCIONAL, LINK DOS ESCRITÓRIOS</h4></li>
+                </ul>
+                <p id="C1" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE C2</h3>
+                <ul>
+                    <li><h4>AS 16:45 DO DIA ANTERIOR A REUNIÃO:</h4></li>
+                    <li><h4>CONFIRMAR REUNIÃO DO DIA SEGUINTE</h4></li>
+                </ul>
+                <p id="C1" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE C3</h3>
+                <ul>
+                    <li><h4>AS 9H DO DIA DA REUNIÃO:</h4></li>
+                    <li><h4>ENVIAR LINK DA REUNIÃO PELO WHATS</h4></li>
+                </ul>
+                <p id="C3" class="red" title="Clique para copiar">
+                </p>
+                <br>
+                <h2>OCORREU</h2>
+                <ul>
+                    <li><h4>QUALIFICAR REUNIÃO E AVANÇAR FUNIL</h4></li>
+                </ul>
+                <br>
+                <h2>REMARCAR</h2>
+                <ul>
+                    <li><h4>CLIENTE RESPONDEU NO MESMO DIA E PEDIU PARA REMARCAR:</h4></li>
+                    <li><h4>AJUSTAR DIA E HORARIO NA AGENDA</h4></li>
+                    <li><h4>NÃO CONSIDERAR COMO NO SHOW</h4></li>
+                </ul>
+                <br>
+                <h2>NO SHOW</h2>
+                <h3>ATIVIDADE NS1</h3>
+                <ul>
+                    <li><h4>1º DIA APÓS NO SHOW:</h4></li>
+                    <li><h4>LIGAR E ENVIAR MENSAGEM</h4></li>
+                    <li><h4>AGENDAR NS2 PARA 2 DIAS DEPOIS</h4></li>
+                </ul>
+                <p id="NS1" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE NS2</h3>
+                <ul>
+                    <li><h4>ENVIAR EMAIL</h4></li>
+                    <li><h4>AGENDAR NS3 PARA 4 DIAS DEPOIS</h4></li>
+                </ul>
+                <p id="NS2" class="red" title="Clique para copiar">
+                </p>
+                <h3>ATIVIDADE NS3</h3>
+                <ul>
+                    <li><h4>ENVIAR MENSAGEM</h4></li>
+                    <li><h4>AGENDAR NS4 PARA 3 DIAS DEPOIS</h4></li>
+                </ul>
+                <p id="NS3" class="red" title="Clique para copiar"></p>
+                <h3>ATIVIDADE NS4</h3>
+                <ul>
+                    <li><h4>LIGAR E ENVIAR MENSAGEM</h4></li>
+                    <li><h4>AGENDAR NS5 PARA 7 DIAS DEPOIS</h4></li>
+                </ul>
+                <p id="NS4" class="red" title="Clique para copiar"></p>
+                <h3>ATIVIDADE NS5</h3>
+                <ul>
+                    <li><h4>LIGAR E ENVIAR MENSAGEM</h4></li>
+                    <li><h4>DAR PERDIDO NO NEGÓCIO</h4></li>
+                    <li><h4>SE RESPONDER, REABRIR NEGÓCIO E FAZER NOVA AGENDA</h4></li>
+                </ul>
+                <p id="NS5" class="red" title="Clique para copiar"></p>
+                <p style="display: none;" id="MENSAGEM-3" class="red" title="Clique para copiar">
+                </p>
+                <h2>ENVIAR PDF MATERIAL VILLELA</h2>
+                <a href="VILLELA BRASIL BANK - INSTITUCIONAL.pdf" download="VILLELA BRASIL BANK - INSTITUCIONAL.pdf">Baixar material</a>
+            </section>
+        
+            <section id="etapa-4" class="step-content hidden">
+                <h1>BREAKUP</h1>
+                <div class="contorno"><h2>PASSO 5</h2></div>
+                <ul>
+                    <li><h4>ENVIAR MENSAGEM 4</h4></li>
+                    <li><h4>E DAR BAIXA COMO FALTA DE CONTATO COM DECISOR</h4></li>
+                </ul>
+                <p id="MENSAGEM-4" class="red" title="Clique para copiar"> 
+                </p>
+                <h2>ENVIAR OS 2 LINKS</h2>
+                <strong>Link 1</strong>
+                <p id="link-1" class="red link"></p>
+                <strong>Link 2</strong>
+                <p id="link-2" class="red"></p>
+                
+            </section>
+            
+            <section id="etapa-5" class="step-content hidden">
+                <h1>ENVIAR EMAIL</h1>
+                <p id="email" class="red" title="Clique para copiar"> 
+                </p>
+            </section>
+            
+            <section id="etapa-6" class="step-content hidden">
+                <h1>CONTATADO</h1>
+                <div class="contorno"><h2>PASSO 6</h2></div>
+                <h2>LIGAR</h2>
+                <h3>ATENDEU <span class="blue">SCRIPT LIGAÇÃO</span></h3>
+                <ul>
+                    <li><p class="topico">MOVER PARA:</p></li>
+                    <li><p class="topico">RETORNAR</p></li>
+                    <li><p class="topico">AGENDADO</p></li>
+                    <li><p class="topico">OU PERDIDO</p></li>
+                </ul>
+                <h3>NÃO ATENDEU</h3>
+                <ul>
+                    <li><h4>ENVIAR MENSAGEM 5</h4></li>
+                    <li><h4>E MOVER O LEAD PARA PROXIMA ETAPA</h4></li>
+                </ul>
+                <p id="MENSAGEM-5" class="red" title="Clique para copiar">
+                
+                </p>
+            </section>
+        
+            <section id="etapa-7" class="step-content hidden">
+                <h1>RETORNAR</h1>
+                <div class="contorno"><h2>PASSO 7</h2></div>
+                <h2>LIGAR</h2>
+                <h3>ATENDEU <span class="blue">SCRIPT LIGAÇÃO</span></h3>
+                <ul>
+                    <li><p class="topico">MOVER PARA:</p></li>
+                    <li><p class="topico">AGENDADO</p></li>
+                    <li><p class="topico">OU PERDIDO</p></li>
+                </ul>
+                <h3>NÃO ATENDEU</h3>
+                <ul>
+                    <li><h4>ENVIAR MENSAGEM 6</h4></li>
+                    <li><h4>MANTER NESSA ETAPA E AGENDAR MENSAGEM 7 PARA DAQUI 4 DIAS</h4></li>
+                </ul>
+                <p id="MENSAGEM-6" class="red" title="Clique para copiar">
+            
+                </p>
+                <div class="contorno"><h2>PASSO 8</h2></div>
+                <ul>
+                    <li><h4>ENVIAR MENSAGEM 7</h4></li>
+                    <li><h4>E DAR BAIXA COMO PAROU DE RESPONDER</h4></li>
+                </ul>
+                <p id="MENSAGEM-7" class="red" title="Clique para copiar">
+    
+                </p>
+            </section>
+        
+            <section id="etapa-8" class="step-content hidden">
+                <h1>AGENDADO</h1>
+                <div class="contorno"><h2>PASSO 9</h2></div>
+                <h2>MENSAGEM DE CONFIRMAÇÃO</h2>
+                <p id="CONFIRMACAO-1" class="red" title="Clique para copiar">
+                </p>
+                <h2>MENSAGEM DE CONFIRMAÇÃO 2</h2>
+                <p id="CONFIRMACAO-2" class="red" title="Clique para copiar">
+                </p>
+                <h2>ENVIAR NO PRIMEIRO HORARIO NO DIA DA REUNIÃO</h2>
+                <p id="primerio-horario" class="red" title="Clique para copiar">
+                </p>
+            </section>
+        
+            <section id="etapa-9" class="step-content hidden">
+                <h1>NO SHOW ASSESSOR</h1>
+                <div class="contorno"><h2>PASSO 10</h2></div>
+                <h2>MENSAGEM NO SHOW</h2>
+                <p id="NOSHOW-ACESSOR" class="red" title="Clique para copiar">
+                </p>
+                <h4 style="text-align: center;">ENVIAR MENSAGEM E NÃO CRIAR OUTRA ATIVIDADE DEIXAR AUTOMAÇÃO MOVER O LEAD</h4>
+            </section>
+        
+            <section id="etapa-11" class="step-content hidden">
+                <h1>NO SHOW GESTOR</h1>
+                <div class="contorno"><h2>PASSO 11</h2></div>
+                <h2>MENSAGEM NO SHOW</h2>
+                <p id="NOSHOW-GESTOR" class="red" title="Clique para copiar">
+                </p>
+            </section>
+        
+            <section id="etapa-10" class="step-content hidden gray">
+                <div class="contorno-blue"><h2>SCRIPT LIGAÇÃO</h2></div>
+                <p id="SCRIPT-LIGACAO" class="red" title="Clique para copiar">
+                </p>
+            </section>
+            <section id="etapa-12" class="step-content hidden gray">
+                <div class="input-parcelamento">
+                    <input type="search" name="" id="pesquisa">
+                    <button id="consulta" type="submit">CONSULTA</button>
+                </div>
+                <div id="card">
+                    <table class="styled-table">
+                        <thead>
+                            <tr>
+                                <th>MÊS</th>
+                                <th>CONTA</th>
+                                <th>TIPO</th>
+                                <th>MODALIDADE</th>
+                                <th>PARCELAS</th>
+                                <th>CONSOLIDADO</th>
+                                <th>PRINCIPAL</th>
+                                <th>REDUÇÃO</th>
+                                <th>PRODUTO</th>
+                            </tr>
+                        </thead>
+                        <tbody id="table-body">
+                        </tbody>
+                    </table>
+                </div>
+                <div class="input-parcelamento"><button id="par" style="display: none;">COPIAR</button></div>
+                
+            </section>
+            <section id="etapa-13" class="step-content hidden gray">
+                <div class="input-parcelamento">
+                    <input type="search" name="" id="pesquisa_telefone">
+                    <button id="consulta_telefone" type="submit">CONSULTA</button>
+                </div>
+                <dialog></dialog>
+                <div id="dados-deal">
+                    <h3>Cliente</h3>
+                    <p id="nome_da_pessoa" idpipe=""></p>
+                    <h3>Telefone</h3>
+                    <p id="telefone_da_pessoa"></p>
+                    <h3>Empresa</h3>
+                    <p id="empresa_da_pessoa"></p>
+                    <h3>Assessor</h3>
+                    <select name="" id="Agente">
+                        <option value="">Selecione</option>
+                        <option value="14214740">Alef Silva</option>
+                        <option value="15259883">Bruno Luiz</option>
+                        <option value="15393027">Igor Piazza</option>
+                        <option value="13296123">Isabella Rodrigues</option>
+                        <option value="15259894">Júlia Borges</option>
+                        <option value="20706193">Kalita Costa</option>
+                        <option value="14213783">Kevyn Ribas</option>
+                        <option value="14213794">Lucas Pereira</option>
+                        <option value="21709140">Mateus Sunol</option>
+                        <option value="21709129">Natalia Pacheco</option>
+                        <option value="21602088">Erika Fernandes</option>
+                        <option value="21602110">Evan Costa</option>
+                        <option value="21602099">Jessica Rocha</option>
+                    </select>
+                    <button id="transfere_negocio">Obter negócio</button>
+                </div>
+            </section>
+            <section id="etapa-14" class="step-content hidden">
+                <h1>OBJEÇÕES</h1>
+                <h2>COMO CONSEGUIU MEU NÚMERO?</h2>
+                <p id="OBJECAO-1" class="red" title="Clique para copiar">
+                </p>
+                <h2>MINHA CONTABILIDADE/JURÍDICO JÁ FAZ</h2>
+                <p id="OBJECAO-2" class="red" title="Clique para copiar">
+                </p>
+                <h2>NÃO TEM INTERESSE</h2>
+                <p id="OBJECAO-3" class="red" title="Clique para copiar">
+                </p>
+            </section>
+        </div>
+    </div>
+    <div id="deal" class="etapa">
+        <div class="sidebar">
+            <ul>
+                <li id="step15">
+                    <div class="step-label">ENVIAR <br>PROPOSTA</div>
+                </li>
+                <li id="step16">
+                    <div class="step-label">AGUARDANDO <br>RETORNO</div>
+                </li>
+                <li id="step17">
+                    <div class="step-label">NEGOCIANDO</div>
+                </li>
+                <li id="step18">
+                    <div class="step-label"> REUNIÃO DE<br>FECHAMENTO</div>
+                </li>
+                <li id="step19">
+                    <div class="step-label">ASSINAR <br>CONTRATO<br>TERMO</div>
+                </li>
+                <li id="step20">
+                    <div class="step-label">OBJEÇÕES</div>
+                </li>
+            </ul>
+        </div>
+        <div class="conteudo">
+            <section id="etapa-15" class="step-content hidden">
+                <h1>ENVIAR PROPOSTA</h1>
+                <p id="enviar-proposta" class="red" title="Clique para copiar">
+                </p>
+            </section>
+            <section id="etapa-16" class="step-content hidden">
+                <h1>AGUARDANDO RETORNO</h1>
+                <h2>PÓS EMIAL</h2>
+                <p id="pos-email" class="red" title="Clique para copiar">
+                </p>
+                <h2>FOLLOW UP 1</h2>
+                <p id="flw-1" class="red" title="Clique para copiar">
+                </p>
+                <h2>FOLLOW UP 2</h2>
+                <p id="flw-2" class="red" title="Clique para copiar">
+                </p>
+                <h2>FOLLOW UP 3</h2>
+                <p id="flw-3" class="red" title="Clique para copiar">
+                </p>
+                <h2>BREAKUP</h2>
+                <p id="breakup-deal" class="red" title="Clique para copiar">
+                </p>
+            </section>
+            <section id="etapa-19" class="step-content hidden">
+                <h1>ASSINAR CONTRATO</h1>
+                <p id="ass-contrato" class="red" title="Clique para copiar">
+                </p>
+            </section>
+            <section id="etapa-20" class="step-content hidden">
+                <h1>OBJEÇÕES</h1>
+                <h2>MINHA CONTABILIDADE\JURÍDICO ESTÁ FAZENDO</h2>
+                <p id="cont-fazendo" class="red" title="Clique para copiar">
+                </p>
+                <h2>MINHA CONTABILIDADE\JURÍDICO ESTÁ FAZENDO 1.1</h2>
+                <p id="ou-cont-fazendo" class="red" title="Clique para copiar">
+                </p>
+                <h2>OBJEÇÃO 1</h2>
+                <p id="obj1" class="red" title="Clique para copiar">
+                </p>
+                <h2>OBJEÇÃO 2</h2>
+                <p id="obj2" class="red" title="Clique para copiar">
+                </p>
+                <h2>OBJEÇÃO 3</h2>
+                <p id="obj3" class="red" title="Clique para copiar">
+                </p>
+                <h2>OBJEÇÃO 4</h2>
+                <p id="obj4" class="red" title="Clique para copiar">
+                </p>
+                <h2>ESPERAR</h2>
+                <p id="esperar" class="red" title="Clique para copiar">
+                </p>
+            </section>
+        </div>
+    </div>
+    <div id="execut" class="etapa">
+        <div class="sidebar">
+            <ul>
+                <li id="step20">
+                    <div class="step-label">CADASTRAR<br>BITRIX</div>
+                </li>
+                <li id="step21">
+                    <div class="step-label">LIBERAR E-CAC<br>DOCUMENTAÇÃO</div>
+                </li>
+                <li id="step22">
+                    <div class="step-label">ONBOARDING</div>
+                </li>
+                <li id="step23">
+                    <div class="step-label">EXECUTAR<br>SERVIÇO</div>
+                </li>
+                <li id="step24">
+                    <div class="step-label">APROVAÇÃO E<br>CONDIÇÕES<br>HONORÁRIOS</div>
+                </li>
+                <li id="step25">
+                    <div class="step-label">ENTREGAR<br>RESULTADO</div>
+                </li>
+            </ul>
+        </div>
+        <div class="conteudo">
+            <section id="etapa-21" class="step-content hidden">
+                <h1>LIBERAR E-CAC</h1>
+                <p id="libera-ecac" class="red" title="Clique para copiar">
+                </p>
+            </section>
+            <section id="etapa-22" class="step-content hidden">
+                <h1>ONBOARDING</h1>
+                <p id="onboarding" class="red" title="Clique para copiar">
+                </p>
+            </section>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
+
+
+
+
+
